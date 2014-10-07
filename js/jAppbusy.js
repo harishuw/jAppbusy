@@ -30,6 +30,7 @@ $.fn.jAppbusy=function(options)
 			zindex:9999
 		}
 		options=$.extend(defaults,options);
+		options.image=options.image!=""?options.image:'data:image/gif;base64,'+img
 		var width=options.width;
 		var height=options.height;
 		var zindex=options.zindex;

@@ -2,6 +2,7 @@
 ========
 
 This plugin will Show a loading image if application is busy
+You can use your image also
 
 
 ```<script src="js/jAppbusy.js"></script>```
